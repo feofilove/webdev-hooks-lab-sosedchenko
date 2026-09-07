@@ -1,0 +1,9 @@
+.add-book-row { display: flex; gap: 8px; margin-bottom: 18px; }
+.input { flex: 1; min-width: 0; background: var(--surface); border: 1px solid var(--line); color: var(--paper); padding: 11px 14px; border-radius: var(--radius); font-size: 13.5px; }
+.input::placeholder { color: var(--muted-dim); }
+.input:focus { outline: none; border-color: var(--gold); }
+.btn { background: var(--gold); color: var(--ink); border: none; padding: 11px 18px; border-radius: var(--radius); font-size: 13.5px; font-weight: 600; white-space: nowrap; }
+.btn:hover { filter: brightness(1.08); }
+.btn.ghost { background: none; border: 1px solid var(--line); color: var(--paper); }
+.btn.ghost:hover { border-color: var(--gold); color: var(--gold); }
+@media (max-width: 520px) { .add-book-row { align-items: stretch; flex-direction: column; } .btn { width: 100%; } }

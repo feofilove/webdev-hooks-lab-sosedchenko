@@ -1,6 +1,7 @@
-import BookForm from './BookForm'
-import BookList from './BookList'
-import FilterChip from './FilterChip'
+import './ShelfScreen.css'
+import BookForm from './BookForm/BookForm.jsx'
+import BookList from './BookList/BookList.jsx'
+import FilterChip from './FilterChip/FilterChip.jsx'
 
 function pluralBooks(count) {
 	const mod10 = count % 10

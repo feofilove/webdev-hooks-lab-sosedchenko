@@ -1,3 +1,5 @@
+import './ReadingCounter.css'
+
 function ReadingCounter({ value, onDecrease, onIncrease, onReset }) {
 	return (
 		<div className="session-card">

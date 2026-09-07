@@ -1,5 +1,6 @@
-import ReadingCounter from './ReadingCounter'
-import StatsSummary from './StatsSummary'
+import './StatsScreen.css'
+import ReadingCounter from './ReadingCounter.jsx'
+import StatsSummary from './StatsSummary/StatsSummary.jsx'
 
 function StatsScreen({ books, pagesToday, onDecrease, onIncrease, onReset }) {
 	return (

@@ -1,3 +1,5 @@
+import './BookItem.css'
+
 const coverPalette = ['#7c5a3c', '#4f6b52', '#7a3b3b', '#3f5566', '#8a6b3f', '#5c4a72'];
 
 function BookItem({ book, onToggleRead, onDelete }) {

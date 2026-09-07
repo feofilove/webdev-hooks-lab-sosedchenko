@@ -3,9 +3,9 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import ViewSwitch from './Components/ViewSwitch.jsx'
-import ShelfScreen from './Components/ShelfScreen.jsx'
-import StatsScreen from './Components/StatsScreen.jsx'
+import ViewSwitch from './Components/ViewSwitch/ViewSwitch.jsx'
+import ShelfScreen from './Components/ShelfScreen/ShelfScreen.jsx'
+import StatsScreen from './Components/StatsScreen/StatsScreen.jsx'
 
 function App() {
     const [currentScreen, setCurrentScreen] = useState('shelf');

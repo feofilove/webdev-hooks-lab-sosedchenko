@@ -1,3 +1,5 @@
+import './FilterChip.css'
+
 function FilterChip({ checked, onChange }) {
 	return (
 		<div className="filter-chip">

@@ -1,3 +1,5 @@
+import './StatsSummary.css'
+
 function StatsSummary({ books }) {
 	const total = books.length;
 	const unread = books.filter((book) => !book.read).length;
